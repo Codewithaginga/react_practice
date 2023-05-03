@@ -1,8 +1,10 @@
 import { useState } from "react";
 import "./App.css";
-import Profile from "./Profile";
+import Profile from "./profile";
 import Products from "./products";
 import ShoppingList from "./shoppingList";
+import Airline from "./airline";
+import Football from "./football";
 function App() {
   return (
     <>
@@ -16,6 +18,26 @@ function App() {
       </div>
       <div>
         <ShoppingList />
+      </div>
+      <div>
+        <Airline
+          kenya="Kenya Airways"
+          Germany="Lufthansa"
+          Rwanda="Rwanda Air"
+        />
+        <Airline
+          kenya="Kenya Airways"
+          Germany="Lufthansa"
+          Rwanda="Rwanda Air"
+        />
+        <Airline
+          kenya="Kenya Airways"
+          Germany="Lufthansa"
+          Rwanda="Rwanda Air"
+        />
+      </div>
+      <div>
+        <Football />
       </div>
     </>
   );
